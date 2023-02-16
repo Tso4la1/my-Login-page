@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Logo from './assets/logo.svg'
+import logo from './assets/bani.svg'
 import './App.css'
 
 function App() {
@@ -7,28 +8,32 @@ function App() {
 
   return (
     <div className="try"><img src={Logo} alt="{comopany-logo}" />
-    <div className="App">
-      
-      <div className='divHead'>
-        
+      <div className="App">
+
+        <div className='divHead'>
+
           <h1>Log in to your account</h1>
-          
+
           <div className='can'>
             <p> Don't have an account? </p>
             <span>Get Started</span>
-          </div> 
-          <label htmlFor="email">Email</label>
-          <input type="email" />
+          </div>
+          <div className='lab'>
+            <label htmlFor="email">Email</label> <br />
+            <input type="email" />
+          </div>
           
-            <p>Password</p>
-            <p>Forget Password</p>
-            <input type="password" />
+            <p className='pas'>Password</p>
+            <p className='spanF'>Forget Password</p> 
+        
+          <input type="password" className='place'/>
           
+
           <button>Login</button>
-       
+
+        </div>
       </div>
-      </div>
-      </div>
+    </div>
   )
 }
 

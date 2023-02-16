@@ -4,32 +4,38 @@
     padding: 0; */
     font-family: "Poppins", sans-serif;
     font-size: 14px;
+    
+}
+body{
     background-color: rgba(244, 246, 247, 0.934)
 }
 .try{
     text-align: center;
+    margin: 30px;
 }
 .App{
     text-align: center;
-    margin: 15px;
+    margin: 30px;
     display: flex;
     justify-content: center; 
      align-items: center;
     flex:1fr 100 1fr;
-    background-image: rgba(244, 246, 247, 0.934)
 }
 .divHead{
-    height: 250px;
-    width: 250px;
+    height: 328px;
+    width: 296px;
     margin-top: 0px;
     background-color: white; 
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding:0 30px 0 0px;
+    
 }
 h1{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     background-color: white;
+    padding-left: -5px;
+    margin-bottom: 5px;
 }
 .can{
     display: flex;
@@ -37,11 +43,78 @@ h1{
     justify-content: center;
     background-color: #fff;
     font-size: 14px;
+    padding-left: 0px;
 }
-p,span,label,button,input{
-    background-color: #fff;
-}
+
 span{
     margin-left: 8px;
-    color: blue;
+    color: rgba(0, 0, 255, 0.69);
+}
+/* .lab{
+    display: flex;
+    flex-direction: column;
+} */
+label{
+    float:left;
+    padding-left: 22px;
+    color: rgb(130, 112, 112);
+    font-size: 15px;
+    font-weight: 500;
+}
+.lab input{
+    float: left;
+    position:relative;
+    left: 19px;
+    margin-top: 5px;
+    border: 1px solid rgba(129, 124, 124, 0.193);
+    margin-bottom: 4px;
+
+}
+.lab input :active{
+    border: 1px solid black;
+}
+/* .passSection{
+    margin: 0;
+    padding: 0;
+    width: 100.3%;
+    
+    
+} */
+.pas{
+    
+    display: inline-block;
+    padding-left: 22px ;
+    float: left;
+    color: rgb(130, 112, 112);
+    margin-bottom: 4px;
+
+}
+.spanF{
+    float: right;
+    margin-right: -10px;
+    color: rgba(0, 0, 255, 0.69);
+    margin-bottom: 4px;
+}
+.place{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(129, 124, 124, 0.193);
+}
+.place :active{
+    border: 1px solid black;
+}
+button, .lab input, .place {
+    width: 271px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+button{
+    border: none;
+    height: 40px;
+    background-color: rgba(38, 38, 192, 0.681);
+    color: white;
+    margin-left: 20px;
+    width: 275px;
+    font-size:16px;
 }
