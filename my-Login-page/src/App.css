@@ -103,6 +103,12 @@ label{
 .place :active{
     border: 1px solid black;
 }
+#hidden-psw{
+    float: right;
+    padding-right:10px;
+    position:relative;
+    bottom: 38px;
+}
 button, .lab input, .place {
     width: 271px;
     height: 30px;
